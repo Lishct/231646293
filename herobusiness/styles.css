@@ -33,15 +33,6 @@
     border-radius: 4px;
   }
   
-  
-  .head a.logo {
-    font-size: 25px;
-    font-weight: bold;
-    font-family: "Anton SC", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
   .head a:hover {
     background-color: #c2da81;
     color: black;
@@ -49,6 +40,7 @@
   
   .headright {
     float: right;
+    margin: 10px;
   }
   
   @media screen and (max-width: 500px) {
@@ -67,6 +59,7 @@
     background-color: #abf358;
     text-align: center;
     padding: 1px;
+    max-width: 100%;
   }
 
  .box{
@@ -78,10 +71,19 @@
  img{
     width: 775px;
     height: 775px;
-    margin-top: 50px;
+    margin-top: 60px;
+    margin-bottom: 60px;
  }
 
  .motto{
     font-size: 70px;
     padding-left: 20px;
  }
+
+ .logo{
+  width: 45px;
+  height: 45px;
+  margin: 10px;
+ }
+
+ 
