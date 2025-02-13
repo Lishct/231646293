@@ -3,10 +3,13 @@
   }
   
   body {
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-image: radial-gradient(circle, #f5efdf 0%, #e9d980b4 100%);
+    background: linear-gradient( to bottom, rgba(207, 238, 188, 0.7),rgba(227, 236, 126, 0.895)), url(fotos/coabg.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
   }
   
   .head{
@@ -41,6 +44,10 @@
   .headright {
     float: right;
     margin: 10px;
+    font-family: "Expletus Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
   }
   
   @media screen and (max-width: 500px) {
@@ -71,13 +78,16 @@
  img{
     width: 775px;
     height: 775px;
-    margin-top: 60px;
-    margin-bottom: 60px;
+    margin-top: 90px;
+    margin-bottom: 40px;
  }
 
  .motto{
     font-size: 70px;
     padding-left: 20px;
+    font-family: "Megrim", serif;
+    font-weight: 400;
+    font-style: normal;
  }
 
  .logo{
@@ -86,4 +96,31 @@
   margin: 10px;
  }
 
- 
+ .servicebutton{
+   background-color: #5e482bb6;
+   border: none;
+   color: #c2da81;
+   padding: 30px 60px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 27px;
+   margin: 10px 5px;
+   transition-duration: 0.5s;
+   cursor: pointer;
+   border: 5px solid #c2da81;
+   border-right-style: groove;
+   border-left-style: groove;
+   border-radius: 10px;
+   font-family: "Megrim", serif;
+   font-weight: 400;
+   font-style: normal;
+ }
+
+ .servicebutton:hover{
+  background-color: #c2da81;
+  color: #5e482bb6;
+  border: 5px solid #5e482bb6;
+  border-right-style: groove;
+  border-left-style: groove;
+ }
