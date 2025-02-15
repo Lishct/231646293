@@ -51,24 +51,11 @@
     font-style: normal;
   }
   
-  @media screen and (max-width: 500px) {
-  .head a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-  
-    .headright {
-      float: none;
-    }
-  }
-
  .cprt{
     background-color: #abf358;
     text-align: center;
     padding: 1px;
     max-width: 100%;
-
   }
 
  .box{
@@ -78,7 +65,7 @@
     overflow: hidden;
  }
  
- img{
+ .mumu{
     width: 775px;
     height: 775px;
     margin-top: 90px;
@@ -130,3 +117,158 @@
   border-right-style: groove;
   border-left-style: groove;
  }
+
+ .services{
+  flex: 1;
+  margin: 5px;
+  min-width: 145px;
+  max-width: 290px;
+  background: #c2da81;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.mumumu{
+  width: 700px;
+  height: 700px;
+  display: flex;
+  float: right;
+  padding-top: 90px;
+}
+
+.boxservice{
+  display: flex grid;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  grid-template-columns: 200px;
+  padding: 10px;
+}
+
+.boxservice > div{
+  background-color: #8da34e7c;
+  color: #000;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 90px;
+  float: left;
+}
+
+.boxservice h3{
+  font-family: "Megrim", serif;
+  font-weight: 1000;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.boxservice p{
+  font-family: "Expletus Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.contactbox{
+  width: 75%;
+  margin: 4px;
+}
+
+#contacts{
+  padding-left: 350px;
+  position: relative;
+}
+
+input[type=text], [type=email], textarea{
+  width: 30%;
+  padding: 8px;
+  border: 1px solid #8ca34e;
+  border-radius: 4px;
+  resize: vertical;
+  padding-bottom: 10px;
+}
+
+input[type=submit]{
+  background-color: #8ca34e;
+  color: #c2da81;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: left;
+}
+
+input[type=submit]:hover{
+  background-color: #697239;
+}
+
+.container{
+  background: fixed;
+  background-color: #8ca34e9d;
+  background-image: repeating-linear-gradient(circle, #c2da81 60%, #8ca34e 20%);
+  max-width: 800px;
+  margin: 60px auto;
+  height: auto;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.aboutsies{
+  position: relative;
+  background-color: #abf3587e;
+  color: #697239;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 3px;
+  padding-top: 3px;
+  margin: 20px;
+  border: 8px groove rgba(183, 224, 71, 0.452);
+}
+
+.aboutsies h3{
+  font-family: "Megrim", serif;
+  font-weight: 1000;
+  font-style: normal;
+  font-size: 60px;
+}
+
+.aboutsies p{
+  font-family: "Expletus Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+}
+
+ @media screen and (max-width: 500px) {
+  .head a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .headright {
+    float: none;
+  }
+
+  #contacts{
+    margin: 10px;
+    pad: 10px;
+  }
+
+  .contactbox, input[type=submit]{
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .mumumu{
+    max-width: 100%;
+    height: auto;
+  }
+
+  .mumu{
+    width: 100%;
+    height: auto;
+  }
+
+}
