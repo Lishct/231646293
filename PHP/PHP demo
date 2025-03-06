@@ -1,8 +1,24 @@
 <?php
+    //all are copy pasted in programiz
     $a = 15;
     $b = 7;
     echo "Sum is " . $a + $b . "! \n" ;
     echo "Difference is " . $a - $b . "! \n";
     echo "Product is " . $a + $b . "! \n" ;
     echo "Quotient is " . $a / $b . "! \n";
+    $number = $a + $b;
+    
+    if ($number% 2 == 0) {
+        echo "Number is even and ";
+    } else {
+        echo "Number is odd and ";
+    }
+    
+    if ($number > 0) {
+        echo "positive ";
+    } elseif ($number < 0) {
+        echo "negative ";
+    } else {
+        echo "zero ";
+    }
 ?>
