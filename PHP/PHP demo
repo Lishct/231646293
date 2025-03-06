@@ -1,0 +1,8 @@
+<?php
+    $a = 15;
+    $b = 7;
+    echo "Sum is " . $a + $b . "! \n" ;
+    echo "Difference is " . $a - $b . "! \n";
+    echo "Product is " . $a + $b . "! \n" ;
+    echo "Quotient is " . $a / $b . "! \n";
+?>
